@@ -1,0 +1,11 @@
+interface:
+  display_name: "Eat That Frog: Beat Procrastination"
+  short_description: Turn priorities into focused execution
+  default_prompt: "Use $eat-that-frog-beat-procrastination to identify my most important task and help me start it now."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
